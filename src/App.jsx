@@ -3,8 +3,6 @@ import artImg from "./assets/images/art.png";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <img src={artImg} className="logo react" alt="art" />
